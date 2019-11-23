@@ -1,4 +1,5 @@
 """
+https://leetcode-cn.com/problems/regular-expression-matching/submissions/
 思路：递归法
 2. 如果p[0] == {s[0], '.'}, 则递归p[1:], s[1:]
 1. 如果len(p) >= 2, p[1] == '*'则：
